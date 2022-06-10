@@ -75,7 +75,7 @@
 		bindings = <
 		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
 		&kp TAB    &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH 		&kp PLUS &kp MINUS  &kp ASTRK &kp FSLH  &kp EQUAL 
-		&kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2 	&kp MINUS &kp GRAVE &kp LBKT &mt COLON SEMI  &mt APOS COLON 
+		&kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2 	&kp MINUS &kp GRAVE &kp LBKT &mt COLON SEMI  &mt DQT APOS  
 					    &mo 1  &kp LGUI  					&kp RGUI &mo 2 
 		>;
 		};
@@ -83,7 +83,7 @@
 		right_layer {
 		bindings = <
 		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
-		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
+		&kp TAB  &kp C  &kp V  &kp Q  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
 		&kp LEFT_CONTROL  &kp LEFT_ALT &kp LEFT_COMMAND &kp RBKT   &kp BSLH    	&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
 					  &mo 3 &kp LCTL  				&kp SPC  &mo 2 
 		>;
